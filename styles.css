@@ -1481,7 +1481,7 @@ section {
         grid-template-columns: 1fr;
         text-align: center;
         padding: var(--space-lg) var(--space-md);
-        padding-top: calc(var(--space-xl) + 60px);
+        padding-top: 80px;
     }
 
     .hero-content {
@@ -1491,6 +1491,10 @@ section {
     .hero-visual {
         order: 1;
         margin-bottom: var(--space-sm);
+    }
+
+    .floating-elements {
+        transform: scale(0.85);
     }
 
     .avatar-container {
@@ -1537,7 +1541,11 @@ section {
     }
 
     .hero {
-        padding-top: calc(var(--space-xl) + 80px);
+        padding-top: 80px;
+    }
+
+    .floating-elements {
+        transform: scale(0.75);
     }
 
     .nav-links {
