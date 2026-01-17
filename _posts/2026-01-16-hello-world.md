@@ -11,6 +11,8 @@ Welcome to my corner of the internet. Over Christmas break, I built an iOS app a
 
 I travel long distances with two cats. Cats don't adapt easily to long journeys, unfamiliar environments, or sudden changes in routine—so planning a route that works for them takes more thought than just picking the fastest drive.
 
+![My cats on a road trip]({{ '/assets/images/cats-traveling.jpg' | relative_url }})
+
 I used to drive from Chennai to Goa, breaking the journey with an overnight halt in Bengaluru. After moving to Hyderabad, those natural stop points disappeared. Planning cat-friendly routes became significantly harder.
 
 I looked for an app that could help. Couldn't find one. So I built it.
