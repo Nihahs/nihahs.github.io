@@ -27,4 +27,4 @@ I was impressed with the service kit sent by them. I had forgotten to take pictu
 
 One bonus protip: You can reach Apple support directly on iMessage. It's not clear how I had managed to add Apple as a "contact", shall update this post with the info if I remember how.
 
-![iMessage Apple]({{ '/assets/images/IMessage.png' | relative_url }} )
+![iMessage Apple]({{ '/assets/images/iMessage.png' | relative_url }})
