@@ -2,7 +2,15 @@
 layout: default
 ---
 <div class="blog-container">
-    <h1 class="section-title">{{ page.title }}</h1>
+    <div class="blog-header">
+        <h1 class="section-title">{{ page.title }}</h1>
+        <a class="rss-subscribe" href="{{ '/feed.xml' | relative_url }}" title="Subscribe via RSS">
+            <svg class="rss-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true">
+                <path d="M6.18 17.82a2.18 2.18 0 1 1-4.36 0 2.18 2.18 0 0 1 4.36 0zM2 8.27v3.09c5.88 0 10.64 4.76 10.64 10.64h3.09C15.73 14.55 9.45 8.27 2 8.27zm0-5.04v3.09C10.85 6.32 18 13.47 18 22h3.09C21.09 11.79 12.21 3.23 2 3.23z"/>
+            </svg>
+            <span>Subscribe via RSS</span>
+        </a>
+    </div>
     {{ content }}
     <ul class="post-list">
         {% for post in site.posts %}

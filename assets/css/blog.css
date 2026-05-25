@@ -294,3 +294,47 @@
         align-items: flex-start;
     }
 }
+
+/* Blog header with RSS subscribe link */
+.blog .blog-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.blog .blog-header .section-title {
+    margin-bottom: 0;
+}
+
+.blog .rss-subscribe {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.85rem;
+    border: 1px solid rgba(99, 102, 241, 0.25);
+    border-radius: 999px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.blog .rss-subscribe:hover {
+    color: var(--text-primary);
+    border-color: rgba(99, 102, 241, 0.5);
+    background-color: rgba(99, 102, 241, 0.06);
+}
+
+.blog .rss-subscribe .rss-icon {
+    flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+    .blog .blog-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
